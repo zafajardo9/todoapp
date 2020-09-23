@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@1,500&display=swap');
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html{
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #eeeeee;
+  font-family: 'Bebas Neue', cursive; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.notesWrapper {
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.notesHeader {
+  width: 100%;
+  background-color: #4f8a8b;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+  font-size: 4rem;
+  color: #fbd46d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.notesFooter {
+  width: 100%;
+  height: 10vh;
+  background-color:#222831;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif; 
 }

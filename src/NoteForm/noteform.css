@@ -1,0 +1,25 @@
+.formWrapper {
+    display: flex;
+    justify-content: center;
+width: 100%;
+}
+.noteInput {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.noteButton {
+    background-color: #fbd46d;
+    color: #222831;
+    padding: 10px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.noteButton:hover {
+    transition: .3s ease-in;
+    background-color: #4f8a8b;
+}
